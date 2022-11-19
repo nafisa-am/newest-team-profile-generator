@@ -1,0 +1,31 @@
+:root{
+--isabelline: #edede9ff;
+--pale-silver: #d6ccc2ff;
+--linen: #f5ebe0ff;
+--champagne-pink: rgb(184, 157, 197);
+--desert-sand: #d5bdafff;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 100px; color: var(--isabelline);
+  background-color: var(--desert-sand);
+ 
+}
+
+main {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+
+}
+.card {
+background-color: var(--champagne-pink);
+margin: 20px;
+}
+
