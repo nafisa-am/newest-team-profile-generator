@@ -1,4 +1,4 @@
-const Intern = require("./Employee");
+const Intern = require("../lib/Employee");
 
 test("getSchool() functions properly", () => {
     const testSchool = "UoB";

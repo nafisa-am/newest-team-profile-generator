@@ -1,4 +1,4 @@
-const Manager = require("./Employee");
+const Manager = require("../lib/Employee");
 
 test("getRole() should be correct position", () => {
     const testRole = "Manager";

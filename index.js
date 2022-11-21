@@ -7,6 +7,7 @@ const Engineer = require("./src/lib/Employee");
 
 const render = require("./src/lib/renderer")
 
+
 const employeeIds = []
 const teamMembers = []
 function mainMenu() {
@@ -63,7 +64,7 @@ function buildTeam() {
             newManager();
         } else {
             console.log("Generating your page now...");
-            createPage();
+            createFile();
         }
     })
 }
@@ -111,7 +112,7 @@ function endOfAddAnEmployee () {
             buildTeam();
         } else {
             console.log("Thank you for using my app! Generating your page now...");
-            createPage();
+            createFile();
         }
     })
 }
@@ -143,6 +144,10 @@ function addIntern() {
         })
 }
 
-function createPage() {
-    fs.writeFileSync("./dist/generated.html",render(teamMembers), "utf-8")
+function createFile() { 
+//     if (!fs.existsSync(OUTPUT_DIR)) {
+//     fs.mkdirSync(OUTPUT_DIR);
+// //   } 
+//   else {
+    fs.writeFileSync("./dist/generated.html", render(teamMembers), "utf-8")
 }
