@@ -66,7 +66,7 @@ function buildTeam() {
         } else if (choice.addAnEmployee == "New Manager") {
             newManager();
         } else {
-            console.log("Generating your page now...");
+            console.log("Thank you for using this app. Your page is generated now!...");
             createFile();
         }
     })
@@ -114,7 +114,7 @@ function endOfAddAnEmployee () {
         if (choice.yesOrNo == "Yes") {
             buildTeam();
         } else {
-            console.log("Thank you for using my app! Generating your page now...");
+            console.log("Thank you for using this app. Your page is generated now!...");
             createFile();
         }
     })

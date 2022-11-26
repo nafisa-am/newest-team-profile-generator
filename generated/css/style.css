@@ -1,9 +1,14 @@
 
-.container-fluid {
+.employee-card {
   margin: 20px;
-  padding: 20px;
 
 }
+
+.manager-card {
+  margin: 20px;
+
+}
+
 
 .banner { 
   margin: 20px;
