@@ -56,7 +56,7 @@ Steps to follow for installation:
 
 - Video Link - 
 
-- Github Link - 
+- Github Link - https://github.com/nafisa-am/newest-team-profile-generator
 
 
 ## Questions
