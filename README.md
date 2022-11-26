@@ -43,12 +43,13 @@ Steps to follow for installation:
 
 3. Install inquirer and jest packages by running ```npm i inquirer``` and ```npm i jest``` respectively. 
 
-4. You can now run ```node index.js```on the command line. 
+4. You can now run ```node index.js``` on the command line. 
 
 
 
 ## Screenshot 
 
+<img width="1440" alt="Screenshot 2022-11-26 at 20 01 39" src="https://user-images.githubusercontent.com/108237958/204107064-8aaface3-7938-412f-bb35-7a9c478616c0.png">
 
 
 
