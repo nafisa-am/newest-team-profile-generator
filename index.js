@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+
 const Manager = require("./src/lib/manager");
 const Intern = require("./src/lib/intern");
 const Engineer = require("./src/lib/engineer");
@@ -145,9 +146,6 @@ function addIntern() {
 }
 
 function createFile() { 
-//     if (!fs.existsSync(OUTPUT_DIR)) {
-//     fs.mkdirSync(OUTPUT_DIR);
-// //   } 
-//   else {
+
     fs.writeFileSync("./dist/generated.html", render(teamMembers), "utf-8")
 }
