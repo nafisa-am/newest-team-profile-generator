@@ -1,3 +1,4 @@
+// Intern test cases 
 const Intern = require("../lib/Employee");
 
 test("getSchool() functions properly", () => {

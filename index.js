@@ -9,6 +9,8 @@ const Engineer = require("./src/lib/engineer");
 const render = require("./src/lib/renderer")
 
 
+// Questions being prompted to the user 
+
 const employeeIds = []
 const teamMembers = []
 function mainMenu() {
@@ -147,5 +149,5 @@ function addIntern() {
 
 function createFile() { 
 
-    fs.writeFileSync("./dist/generated.html", render(teamMembers), "utf-8")
+    fs.writeFileSync("./generated/generated.html", render(teamMembers), "utf-8")
 }

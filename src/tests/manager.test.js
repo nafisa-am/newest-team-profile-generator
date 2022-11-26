@@ -1,3 +1,4 @@
+// Manager test cases 
 const Manager = require("../lib/Employee");
 
 test("getRole() should be correct position", () => {

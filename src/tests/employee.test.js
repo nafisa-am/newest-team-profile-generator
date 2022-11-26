@@ -1,4 +1,4 @@
-//import the employee class
+// Employee test cases 
 const Employee = require("../lib/Employee");
 
 test("creates new employee", () => {

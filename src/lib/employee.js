@@ -1,3 +1,5 @@
+// Employee constructor
+
 class Employee {
     constructor(name, id, email, school) {
         this.name = name;
